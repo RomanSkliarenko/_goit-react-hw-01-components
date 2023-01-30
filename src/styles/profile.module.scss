@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin: 50px auto 0;
+  padding-top: 20px;
+  border: 1px solid rgba(0,0,0,0.22);
+}
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.22);
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+.tag {
+  color: rgb(182, 179, 174);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 5px;
+}
+.location {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+.item {
+  width: 33%;
+  height: 80px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0,0,0,0.25);
+  box-shadow: 5px 14px 28px rgba(0,0,0,0.25), 5px 10px 10px rgba(0,0,0,0.22);
+}
+.list {
+  width: 100%;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.quantity {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 5px;
+}
+.label {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 5px;
+}
